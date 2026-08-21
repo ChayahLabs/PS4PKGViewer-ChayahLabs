@@ -1,0 +1,23 @@
+# Local release binaries
+*.rar
+*.zip
+*.7z
+
+# Executables / generated binaries
+*.exe
+*.dll
+*.dat
+
+# Build / temp
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.tmp
+*.log
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store

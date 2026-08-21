@@ -29,7 +29,7 @@ Highlights:
 
 ### SHA256
 
-The publishing script prints the SHA256 of the exact RAR uploaded to this Release. Add that value here after publication.
+SHA256: `49745B7927255162ADE6EAF10C7F46C1642D3F4577E0FE609AC5EE7FD05EF93D`
 
 ### Credits
 
@@ -38,3 +38,4 @@ Original PS4PKGViewer by **LMAN <LeecherMan>**.
 Compatibility update by **ChayahLabs**.
 
 Thanks to Maxton and LibOrbisPkg/PkgTool contributors, ORBISPatches, researchers, testers, documenters and the wider PS4 community.
+

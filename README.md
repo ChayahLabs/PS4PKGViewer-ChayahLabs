@@ -6,6 +6,14 @@ This repository documents and distributes the **ChayahLabs compatibility update 
 
 > Special thanks to **LMAN <LeecherMan>**, the original creator of PS4PKGViewer. Without his work, this compatibility update would not have been possible.
 
+
+## Current release
+
+**PS4PKGViewer v1.6.4 — ChayahLabs Compatibility Update**
+
+- Release: https://github.com/ChayahLabs/PS4PKGViewer-ChayahLabs/releases/tag/v1.6.4
+- Archive: `PS4PKGViewer.v1.6.4-LMAN_ChayahLabs.rar`
+- SHA256: `49745B7927255162ADE6EAF10C7F46C1642D3F4577E0FE609AC5EE7FD05EF93D`
 ## What's new in v1.6.4
 
 - Improved **List Contents** support for newer and rebuilt PS4 packages.
@@ -100,3 +108,11 @@ LMAN <LeecherMan> (2018)
 ChayahLabs (2026)
 
 https://github.com/ChayahLabs
+
+## Project documentation
+
+- [Changelog](CHANGELOG.md)
+- [Contributing](CONTRIBUTING.md)
+- [Support](SUPPORT.md)
+- [Security policy](SECURITY.md)
+- [Third-party notices](THIRD_PARTY_NOTICES.md)

@@ -1,5 +1,44 @@
 # Changelog
 
+## v1.6.5 — ChayahLabs ICON0 Compatibility Update
+
+### ICON0 compatibility
+- Fixed missing package icons in some rebuilt or non-standard PS4 PKGs.
+- Fixed compatibility with packages affected by the legacy `ENTRY_NAMES` positional association behavior.
+- Added a direct MetaEntry-based `ICON0` fallback.
+- Preserved the original icon-loading path when the legacy icon data is already valid.
+- Prefer `ICON0_PNG` entry ID `0x1200`; compatible `0x1201..0x121F` variants are also supported.
+- Reads compatible unencrypted icon data directly using package `DataOffset` / `DataSize`.
+- Validates package bounds and PNG/JPEG signatures before using fallback icon data.
+- Avoids external PkgTool processes when the direct metadata path succeeds.
+
+### Self-contained secondary ICON0 fallback
+- Embedded the secondary LibOrbisPkg / PkgTool 0.2.231.2 runtime inside `ChayahLabs.PS4IconFallback.dll`.
+- Removed the need to distribute an external `ChayahPkgTool` folder.
+- The embedded runtime is materialized under Windows TEMP only if the secondary ICON0 fallback is actually required.
+- RC3 build validation verified all five embedded runtime files against their source SHA256 values.
+
+### Regression validation
+- Validated direct ICON0 loading with:
+  - Store-R2-PS5.pkg
+  - Hulu CUSA00131
+  - WatchESPN CUSA05214
+  - PS5_LAPY20011_v1.04.pkg
+- Verified normal packages continue to use the original icon path (`Legacy icon valid; fallback skipped`).
+- Verified Hulu `List Contents` behavior remains functional.
+- Preserved `PS4PKGViewer.dat` behavior from the validated v1.6.4 build.
+
+### Versioning and distribution
+- Updated visible version to PS4PKGViewer v1.6.5.
+- Updated AssemblyVersion, FileVersion and ProductVersion to `1.6.5.0`.
+- Updated and embedded the v1.6.5 Readme.
+- Public distribution now contains exactly:
+  - `PS4PKGViewer.exe`
+  - `PS4PKGViewer.dat`
+  - `PS4UpdateInfo.ps1`
+  - `Readme.txt`
+  - `ChayahLabs.PS4IconFallback.dll`
+
 ## v1.6.4 — ChayahLabs Compatibility Update
 
 ### Package compatibility

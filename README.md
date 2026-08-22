@@ -98,7 +98,7 @@ Feature requests and compatibility improvements are also welcome.
 Special thanks to:
 
 - **LMAN <LeecherMan>** — original author of PS4PKGViewer.
-- **Maxton** and the contributors to **LibOrbisPkg / PkgTool**.
+- **[Maxton](https://github.com/maxton)** and the contributors to **[LibOrbisPkg / PkgTool](https://github.com/maxton/LibOrbisPkg)** — the open-source PKG/PFS/SFO library and tooling used by the compatibility fallback.
 - **ORBISPatches** and its contributors.
 - Everyone involved in PS4 package research, documentation, development, testing and community support.
 - Users who report compatibility issues and suggest improvements.

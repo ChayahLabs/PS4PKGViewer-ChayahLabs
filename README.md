@@ -1,3 +1,21 @@
+<!-- CHAYAHLABS-README-HERO:BEGIN -->
+<p align="center">
+  <img src="assets/ps4pkgviewer-banner.svg" width="100%" alt="PS4PKGViewer — ChayahLabs compatibility updates">
+</p>
+
+<p align="center">
+  <a href="https://github.com/ChayahLabs/PS4PKGViewer-ChayahLabs/releases/latest"><img alt="Latest Release" src="https://img.shields.io/github/v/release/ChayahLabs/PS4PKGViewer-ChayahLabs?style=flat-square"></a>
+  <a href="https://github.com/ChayahLabs/PS4PKGViewer-ChayahLabs/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/ChayahLabs/PS4PKGViewer-ChayahLabs/total.svg?style=flat-square"></a>
+  <a href="https://github.com/ChayahLabs/PS4PKGViewer-ChayahLabs/issues"><img alt="Issues" src="https://img.shields.io/github/issues/ChayahLabs/PS4PKGViewer-ChayahLabs?style=flat-square"></a>
+  <a href="https://github.com/ChayahLabs/PS4PKGViewer-ChayahLabs/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/ChayahLabs/PS4PKGViewer-ChayahLabs?style=flat-square"></a>
+  <a href="https://github.com/ChayahLabs/PS4PKGViewer-ChayahLabs/network/members"><img alt="Forks" src="https://img.shields.io/github/forks/ChayahLabs/PS4PKGViewer-ChayahLabs?style=flat-square"></a>
+</p>
+
+<p align="center">
+  <strong>PS4 PKG inspection and compatibility updates for the original PS4PKGViewer by LMAN.</strong>
+</p>
+<!-- CHAYAHLABS-README-HERO:END -->
+
 # PS4PKGViewer v1.6.6 — ChayahLabs List Contents Size Accuracy Update
 
 PS4PKGViewer is a Windows utility originally created by **LMAN <LeecherMan>** for viewing information and contents from PlayStation 4 PKG files.
@@ -5,6 +23,14 @@ PS4PKGViewer is a Windows utility originally created by **LMAN <LeecherMan>** fo
 This repository documents and distributes the **ChayahLabs compatibility updates for PS4PKGViewer**, with **v1.6.6** as the current release.
 
 > Special thanks to **LMAN <LeecherMan>**, the original creator of PS4PKGViewer. Without his work, these compatibility updates would not have been possible.
+
+<!-- CHAYAHLABS-SCREENSHOT:BEGIN -->
+## Screenshot
+
+<p align="center">
+  <img src="assets/ps4pkgviewer-v1.6.6-screenshot.png" width="780" alt="PS4PKGViewer v1.6.6 screenshot">
+</p>
+<!-- CHAYAHLABS-SCREENSHOT:END -->
 
 ## Current release
 
